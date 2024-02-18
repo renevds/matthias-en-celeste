@@ -1,7 +1,48 @@
 body {
-    background-image: url('images/background.jpeg');
-    background-position: center center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    min-height: 100vh;
+    background-color: white;
+    font-family: "Tenor Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-item{
+    font-size: 18px;
+}
+
+.nav-item-heavy{
+    background-color: black;
+}
+
+.nav-item-heavy > a{
+    color: white !important;
+}
+
+.logo {
+    height: 40vh;
+}
+
+.date{
+    font-size: 32px;
+}
+
+.save{
+    font-size: 40px;
+}
+
+.mec{
+    font-size: 40px;
+}
+
+.our {
+    font-size: 32px;
+}
+
+#section1{
+    background-image: url("images/background.jpeg");
+    background-position: center center; /* Center the background image */
+    background-size: cover; /* Cover the entire page */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    height: 100vh; /* Ensure full vertical coverage */
 }
