@@ -1,0 +1,13 @@
+@media (max-width: 576px) {
+    .mec {
+        font-size: 28px;
+    }
+
+    .logo {
+        height: 20vh;
+    }
+
+    .navbar-nav{
+        padding: 10px;
+    }
+}
