@@ -1,13 +1,27 @@
 @media (max-width: 576px) {
     .mec {
-        font-size: 28px;
+        font-size: 24px;
+        white-space: pre-line;
+        width: 180px;
     }
 
     .logo {
-        height: 20vh;
+        height: 24vh;
     }
 
     .navbar-nav{
         padding: 10px;
+    }
+    
+    .date {
+        font-size: 24px;
+    }
+    
+    .chevron{
+        width: 25px;
+    }
+
+    .navbar {
+        margin-bottom: 40px;
     }
 }

@@ -18,14 +18,12 @@ body {
 
 .nav-item > a {
     color: var(--white) !important;
-    /*font-weight: bold;*/
+    padding: 4px 14px
 }
 
 .nav-item-heavy {
     background-color: var(--white);
     width: fit-content;
-    padding-left: 8px;
-    padding-right: 8px;
 }
 
 .nav-item-heavy > a {
@@ -33,7 +31,7 @@ body {
 }
 
 .logo {
-    height: 40vh;
+    height: 36vh;
     filter: invert() brightness(100%);
 }
 
@@ -46,7 +44,7 @@ body {
 }
 
 .mec {
-    font-size: 48px;
+    font-size: 44px;
 }
 
 .our {
@@ -82,14 +80,39 @@ body {
     font-size: 32px;
 }
 
+.chevron {
+    width: 35px;
+    filter: invert(1);
+}
+
 .section-title {
     font-size: 48px;
 }
 
+.navbar {
+    padding-top: 12px;
+}
+
 .navbar-toggler {
     border-color: white;
+    border: none;
+    padding: 0;
 }
 
 .navbar-toggler-icon{
     filter: invert(1) brightness(200);
+}
+
+.uitnodiging {
+    max-width: 500px;
+    font-size: 24px;
+}
+
+.vertical-date{
+    font-size: 56px;
+    line-height: 52px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-right: 60px;
 }
