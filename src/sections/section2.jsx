@@ -1,7 +1,7 @@
 export const Section2 = () => (
     <div className="w-full flex justify-center bg-white">
-        <div className="p-10 flex gap-20 items-center justify-center max-w-[900px] relative">
-            <div className="ml-[200px]">
+        <div className="p-10 flex gap-20 items-center justify-end max-w-[900px] w-full relative">
+            <div className="lg:ml-[100px] text-justify">
                 <div className="text-3xl font-tenor font-medium mb-4 capitalize">DE LOCATIE</div>
                 <div className="text-gray-600 text-xl font-extralight">
                     <div>
