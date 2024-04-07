@@ -37,5 +37,22 @@
 }
 
 body {
-    @apply bg-white;
+    @apply bg-white w-full overflow-x-hidden;
+}
+
+.text-title {
+    @apply text-lg lg:text-3xl lg:mb-4 mb-2;
+}
+
+.text-normal {
+    @apply text-sm lg:text-xl;
+}
+
+.text-small {
+    @apply text-xs lg:text-lg;
+}
+
+.container-section {
+    @apply lg:py-8 py-4 px-8 flex items-center 
+    justify-center max-w-[900px] w-full relative;
 }

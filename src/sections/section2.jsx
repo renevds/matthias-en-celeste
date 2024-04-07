@@ -1,9 +1,9 @@
 export const Section2 = () => (
     <div className="w-full flex justify-center bg-white">
-        <div className="p-10 flex gap-20 items-center justify-end max-w-[900px] w-full relative">
-            <div className="lg:ml-[100px] text-justify">
-                <div className="text-3xl font-tenor font-medium mb-4 capitalize">DE LOCATIE</div>
-                <div className="text-gray-600 text-xl font-extralight">
+        <div className="container-section gap-20 justify-end">
+            <div className="lg:ml-[135px] text-justify">
+                <div className="text-title font-tenor font-medium capitalize">DE LOCATIE</div>
+                <div className="text-gray-600 text-normal font-extralight">
                     <div>
                         Wij kijken ernaar uit om jullie te verwelkomen in de historische brouwerij van de Wilde Brouwers
                         in het hart van de Merelbeekse Florawijk. Dit karaktervolle, industriële pand vormt sinds 2018
