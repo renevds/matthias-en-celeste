@@ -16,7 +16,7 @@ export const Section1 = () => (
                             <br/>
                             huwelijksfeest op 29 juni 2024.
                         </div>
-                        <button className="lg:mt-16 mt-4 border px-4 py-2 text-small hover:bg-gray-100">Bevestig hier uw aanwezigheid.
+                        <button className="custom-button">Bevestig hier uw aanwezigheid.
                         </button>
                     </div>
                 </div>

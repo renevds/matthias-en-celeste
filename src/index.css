@@ -11,8 +11,12 @@
     box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.1);
 }
 
-.bg-beige {
+.bg-4 {
     background-color: #E6E9E3;
+}
+
+.bg-6 {
+    background-color: #E2E5E6;
 }
 
 .mb-half {
@@ -51,6 +55,10 @@ body {
 
 .text-small {
     @apply text-xs lg:text-lg;
+}
+
+.custom-button {
+    @apply text-gray-500 lg:mt-16 mt-4 border px-4 py-2 text-small hover:bg-gray-100 font-openSans font-normal
 }
 
 .container-section {

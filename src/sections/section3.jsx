@@ -11,7 +11,7 @@ export const Section3 = () => (
             <img src="foto_3_2.JPG" alt="matthias en celeste"
                  className="w-[250px] h-[200px] object-cover absolute top-1/2 -translate-y-1/2 z-10 -left-5"/>
             <img src="foto_3_3.JPG" alt="matthias en celeste"
-                 className="w-[200px] absolute bottom-0 translate-y-1/3 -right-4"/>
+                 className="w-[200px] absolute bottom-0 translate-y-1/4 -right-4"/>
         </div>
     </div>
 )

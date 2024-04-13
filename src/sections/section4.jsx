@@ -19,7 +19,7 @@ const SwiperSection = ({title, children, index}) => {
                 <ChevronLeft width="32" height="32"
                              className="text-gray-600 cursor-pointer lg:block hidden"
                              onClick={() => swiper.slidePrev()}/>}
-            <div className={`lg:w-[280px] w-[300px] h-full text-center lg:px-2 px-2 py-5 relative bg ${swiperSlide.isActive ? 'bg-white' : ''}`} onClick={() => swiper.slideTo(index)}>
+            <div className={`lg:w-[280px] w-[300px] h-full text-center lg:px-2 px-2 py-5 relative bg ${swiperSlide.isActive ? '' : ''}`} onClick={() => swiper.slideTo(index)}>
                 <div className="text-lg lg:text-2xl font-tenor font-medium">{title}</div>
                 <div className="text-gray-600 text-base lg:text-xl font-extralight lg:mt-6 mt-2">
                     {children}
@@ -34,8 +34,8 @@ const SwiperSection = ({title, children, index}) => {
 }
 
 export const Section4 = () => (
-    <div className="w-full flex justify-center bg-beige">
-        <div className="lg:py-36 py-32 w-full">
+    <div className="w-full flex justify-center bg-4">
+        <div className="lg:py-36 py-20 w-full">
             <div>
                 <Swiper slidesPerView={2} initialSlide={2} centeredSlides
                         breakpoints={{
