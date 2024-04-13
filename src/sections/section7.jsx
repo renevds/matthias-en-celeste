@@ -4,7 +4,7 @@ export const Section7 = () => (
         <div className="max-w-[900px] py-8 px-8 relative z-10 bg-white w-full lg:grid grid-cols-3 gap-16 flex flex-col">
             <div className="text-center flex flex-col items-center">
                 <img alt="matthias en celeste" src="section_7_1.png"
-                     className="object-contain w-[150px] h-[100px] lg:h-[150px] lg:w-full"/>
+                     className="object-contain w-[150px] h-[100px] lg:h-[160px] lg:w-full"/>
                 <div className="font-parisienne text-4xl mt-4">Receptie</div>
                 <div className="font-tenor text-xl mt-4">
                     17:00
@@ -16,7 +16,7 @@ export const Section7 = () => (
             </div>
             <div className="text-center flex flex-col items-center">
                 <img alt="matthias en celeste" src="section_7_2.png"
-                     className="object-contain w-[150px] h-[100px] lg:h-[150px] lg:w-full"/>
+                     className="object-contain w-[150px] h-[100px] lg:h-[160px] lg:w-full"/>
                 <div className="font-parisienne text-4xl mt-4">Diner</div>
                 <div className="font-tenor text-xl mt-4">
                     19:00
@@ -27,8 +27,10 @@ export const Section7 = () => (
                 </div>
             </div>
             <div className="text-center flex flex-col items-center">
-                <img alt="matthias en celeste" src="section_7_3.png"
-                     className="object-contain w-[150px] h-[100px] lg:h-[150px] lg:w-full"/>
+                <div className="w-[150px] h-[100px] lg:h-[160px] relative">
+                    <img alt="matthias en celeste" src="section_7_3.png"
+                         className="absolute bottom-0 left-1/2 -translate-x-1/2 object-contain w-[140px] h-[140px] lg:h-[210px] lg:w-[210px] max-w-none"/>
+                </div>
                 <div className="font-parisienne text-4xl mt-4">Avondfeest</div>
                 <div className="font-tenor text-xl mt-4">
                     23:00
