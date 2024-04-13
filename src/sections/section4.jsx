@@ -46,7 +46,7 @@ export const Section4 = () => (
                     <SwiperSlide>
                         <SwiperSection title="BURGERLIJK HUWELIJK"
                                        index={0}>
-                            Wij trouwen al voor de wet op 8 mei in het gemeentehuis van De Pinte.
+                            Wij trouwen voor de wet op 8 mei in het gemeentehuis van De Pinte.
                         </SwiperSection>
                     </SwiperSlide>
                     <SwiperSlide>

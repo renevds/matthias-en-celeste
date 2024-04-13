@@ -11,7 +11,7 @@ export const Section7 = () => (
                     <br/>
                     Binnenplaats
                     <br/>
-                    Brouwerije de Wilde Brouwers
+                    Brouwerij de Wilde Brouwers
                 </div>
             </div>
             <div className="text-center flex flex-col items-center">
@@ -21,7 +21,7 @@ export const Section7 = () => (
                 <div className="font-tenor text-xl mt-4">
                     19:00
                     <br/>
-                    Zitten diner
+                    Zittend diner
                     <br/>
                     Tussen de brouwvaten
                 </div>
