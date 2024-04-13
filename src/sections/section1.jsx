@@ -2,10 +2,11 @@ export const Section1 = () => (
     <div className="w-full flex justify-center mt-4">
         <div className="container-section">
             <img src="date_opt.svg"
+                 alt="de datum"
                  className="absolute h-[650px] bottom-0 left-0
                  -translate-x-[65%] translate-y-1/2 bg-b
                  opacity-50 lg:block hidden"/>
-            <img src="foto1.png" className="w-[270px] hidden lg:inline-block"/>
+            <img src="foto1.png" className="w-[270px] hidden lg:inline-block" alt="matthias en celeste"/>
             <div className="lg:grow flex lg:justify-end lg:text-end text-start">
                 <div>
                     <div className="text-title font-tenor font-medium">DE UITNODIGING</div>
@@ -21,7 +22,7 @@ export const Section1 = () => (
                 </div>
             </div>
             <div className="h-full overflow-visible relative lg:hidden grow ml-4">
-                <img src="foto1.png" className="block left-0 top-0 absolute min-w-[120px]"/>
+                <img alt="matthias en celeste" src="foto1.png" className="block left-0 top-0 absolute min-w-[120px]"/>
             </div>
         </div>
     </div>
