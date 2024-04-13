@@ -16,8 +16,12 @@ export const Section1 = () => (
                             <br/>
                             huwelijksfeest op 29 juni 2024.
                         </div>
-                        <button className="custom-button">Bevestig hier uw aanwezigheid.
-                        </button>
+                        <a className="custom-button block"
+                           target="_blank"
+                           rel="noreferrer"
+                           href="https://forms.office.com/Pages/ResponsePage.aspx?id=3hyB1-_sbEmPkaF4YkG5nKW0iiCpQrtJiXbEfHEYI-JURU5UTU9PUlBTR1FHQVZTVkZWOTgyWDlSVS4u">
+                            Bevestig hier uw aanwezigheid.
+                        </a>
                     </div>
                 </div>
             </div>
