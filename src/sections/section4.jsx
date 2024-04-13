@@ -52,7 +52,11 @@ export const Section4 = () => (
                     <SwiperSlide>
                         <SwiperSection title="PARKING"
                                        index={1}>
-                            Parkeren kan in de straat van De Wilde Brouwers, en na de kantooruren ook op de parkings van
+                            Parkeren kan in de <a
+                            href="https://maps.app.goo.gl/MXYKFYqX1BLKwtdj7"
+                            rel="noreferrer"
+                            className="underline"
+                            target="_blank">straat van De Wilde Brouwers</a>, en na de kantooruren ook op de parkings van
                             de nabijgelegen kantoorgebouwen.
                         </SwiperSection>
                     </SwiperSlide>
