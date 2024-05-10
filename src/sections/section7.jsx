@@ -4,7 +4,7 @@ export const Section7 = () => (
         <div className="max-w-[900px] py-8 px-8 relative z-10 bg-white w-full lg:grid grid-cols-3 gap-16 flex flex-col">
             <div className="text-center flex flex-col items-center">
                 <img alt="matthias en celeste" src="section_7_1.png"
-                     className="object-contain w-[150px] h-[100px] lg:h-[160px] lg:w-full"/>
+                     className="object-contain w-[150px] h-[100px] lg:h-[160px] lg:w-full" loading="lazy"/>
                 <div className="font-parisienne text-4xl mt-4">Receptie</div>
                 <div className="font-tenor text-xl mt-4">
                     17:00
